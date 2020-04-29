@@ -425,7 +425,7 @@ class PowerOutletTypeChoices(ChoiceSet):
     TYPE_ITA_N = 'ita-n'
     TYPE_ITA_O = 'ita-o'
     # Proprietary
-    TYPE_PROPRIETARY_SERVERTECH_CX = 'proprietary-servertech-cx'
+    TYPE_PROPRIETARY_SERVERTECHNOLOGY_CX = 'proprietary-servertechnology-cx'
 
     CHOICES = (
         ('IEC 60320', (
@@ -490,7 +490,7 @@ class PowerOutletTypeChoices(ChoiceSet):
             (TYPE_ITA_O, 'ITA Type O'),
         )),
         ('Proprietary', (
-            (TYPE_PROPRIETARY_SERVERTECH_CX, 'Servertech CX'),
+            (TYPE_PROPRIETARY_SERVERTECHNOLOGY_CX, 'ServerTechnology Cx'),
         )),
     )
 
